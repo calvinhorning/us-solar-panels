@@ -50,7 +50,7 @@ In my opinion, this map asks more questions than it answers, as the correlation 
 ## Final Project Link
 Below is an image of the map:
 
-!(images/us-solar-panels-300dpi.png)
+![map image](images/us-solar-panels-300dpi.png)
 
 
 Please view the [final map online](www.github.com/calvinhorning/us-solar-panels/index.html)
