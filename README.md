@@ -1,21 +1,11 @@
 # Solar Panels and Daily Sunlight in the Continental United States
 
-
-
-## Project Contents
-
-If you wanted to include a table of contents to sections, and then links to each section.
-
-- [Data Source](#data-source)
-- [Project Background](#project-background)
-- ....
-
-***
-
 ### Data Source
 
 [U.S. Census Bureau Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
+
 [NLDAS Daily Sunlight Data](https://wonder.cdc.gov/nasa-insolar.html)
+
 [U.S. Large-Scale Solar Photovoltaic Database](https://energy.usgs.gov/uspvdb/)
 
 * Initial Data projection: EPSG:4269 NAD83 (first two sources, third has no geometry)
@@ -53,4 +43,4 @@ Below is an image of the map:
 ![map image](images/us-solar-panels-300dpi.png)
 
 
-Please view the [final map online](https://github.com/calvinhorning/us-solar-panels/blob/main/index.html)
+Please view the [final map online](https://htmlpreview.github.com/calvinhorning/us-solar-panels/blob/main/index.html)
