@@ -5,7 +5,7 @@
 <head>
 	<meta charset=utf-8 />
 	<!-- Below is the title of the document -->
-	<title>Template Example Edit</title>
+	<title>U.S. Solar Panels</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
@@ -92,23 +92,28 @@
 		<!-- The division element contains an image element -->
 		<div id='map'>
 			<!-- The image element uses the the 'src' property to show an image on the page. -->
-			<img src="images/thenameofyourfile.jpg" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
+			<img src="images/us-solar-panels-300dpi.png" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
 		</div>
-		<!-- <a href="">Link to high resolution version</a> -->
+		<a href="images/us-solar-panels-600dpi.png">Link to high resolution version</a>
 
 		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
 
-		<h1>Title on page</h1>
+		<h1>U.S. Solar Panels and Daily Sunlight</h1>
 
 		<!-- Add your information below -->
-		<h2>Authored by: New Maps Plus</h2>
-		<p>Describe how this map was made, data sources, and other important metadata. Include link(s) to the data
-			source: <a href="https://nationalmap.gov/small_scale/atlasftp.html" target="blank">The National Map
-				Small-Scale website</a>. </p>
+		<h2>Authored by: Calvin Horning</h2>
+		<p>This map was made using the features of QGIS 4.10.11. The solar panel data came from the <a href="https://energy.usgs.gov/uspvdb/" target="blank">
+			U.S. Large-Scale Solar Photovoltaic Database</a> and was joined to a 50km minor-axis hexbin (made using the MMQGIS "Create Grid Layer" tool) 
+			with the Join Attributes by location (summary) tool. State and county data came from the <a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php" target="blank">U.S. Census Bureau</a>.
+			The daily sunlight data is from the <a href="https://wonder.cdc.gov/nasa-insolar.html" target="blank">
+			North America Land Data Assimilation System</a> via CDC WONDER, and was appended to the county layer via the "join" tool and a CSV layer without geometry. This map is intended to show 
+			the density of solar panel farms in the continental U.S. as compared with the regions with the greatest amounts of sunlight. In making this map, I expected high-sunlight and low density
+			areas to have the highest rate of solar panels. You'll see that though there is some correlation, much of the relatively dense and lower-sunlight East Coast have high rates of solar farming.
+			This leads me to wonder what political economic factors effect large-scale solar panel construction beyond physical geography.</p>
 
 		<ul>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
-			<li>See my projects on GitHub: <a href="https://github.com/newmapsplus">New Maps Plus</a></li>
+			<li>See my projects on GitHub: <a href="https://github.com/calvinhorning">Calvin Horning</a></li>
 		</ul>
 		<hr>
 		<a href="https://uky-gis.github.io"><img width="20%"
