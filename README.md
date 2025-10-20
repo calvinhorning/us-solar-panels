@@ -43,4 +43,4 @@ Below is an image of the map:
 ![map image](images/us-solar-panels-300dpi.png)
 
 
-Please view the [final map online](https://github.com/calvinhorning/us-solar-panels/blob/main/index.html)
+Please view the [final map online](https://calvinhorning.github.io/us-solar-panels/)
